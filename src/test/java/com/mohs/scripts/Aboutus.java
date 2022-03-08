@@ -10,6 +10,6 @@ public class Aboutus extends StartBrowser {
   public void AboutusTestCase() throws Exception {
 	  CommonFunctions  cfs=new CommonFunctions();
 	  cfs.clickonAboutus();
-	  Thread.sleep(5000);
+	  Thread.sleep(6000);
   }
 }
