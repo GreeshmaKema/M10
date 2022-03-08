@@ -18,20 +18,20 @@ public class CommonFunctions {
 	
 		public void clickonAboutus() throws Exception
 		{
-			StartBrowser.childTest = StartBrowser.parentTest.createNode("Navigate to M10 website");
+			StartBrowser.childTest = StartBrowser.parentTest.createNode("Navigate to M10 Website");
 			aDriver.navigateToApplication("https://mohs10.io/");
 			aDriver.click(Homepage.classAboutus, "click operarion on About ");			
 	    }
 		public void clickonConsultancy () throws Exception
 		{
-			StartBrowser.childTest = StartBrowser.parentTest.createNode("Navigate to M10 website");
+			StartBrowser.childTest = StartBrowser.parentTest.createNode("Navigate to M10 Website");
 			aDriver.navigateToApplication("https://mohs10.io/");
 			aDriver.mouseHover(Homepage.xpathServices, "Mousehover on services");
 			aDriver.click(Homepage.lnkConsultancy, "click operarion on Consultancy");			
 	    }
 		public void clickonProductengg() throws Exception
 		{
-			StartBrowser.childTest = StartBrowser.parentTest.createNode("Navigate to M10 website");
+			StartBrowser.childTest = StartBrowser.parentTest.createNode("Navigate to M10 Website");
 			aDriver.navigateToApplication("https://mohs10.io/");
 			aDriver.mouseHover(Homepage.xpathServices, "Mousehover on services");
 			aDriver.click(Homepage.lnkProductengg, "click operarion on ProductEngg");			
